@@ -5,6 +5,7 @@ import './Main.css';
 import Aos from 'aos'
 import 'aos/dist/aos.js'
 import 'aos/dist/aos.css'
+import MenueList from './MenueList/MenueList';
 
 
 export default function MainPage() {
@@ -31,6 +32,7 @@ export default function MainPage() {
                             "Deliciously Crafted Burgers, Just for You!"
                         </h1>
                         <p className="lead" data-aos="zoom-out-up">
+                            
                             At Burger Bliss, we believe that every burger should be a masterpiece. That's why we use only the freshest ingredients and house-made sauces, all crafted by hand to bring you a truly unforgettable experience. From classic favorites to adventurous flavors, our burgers are made to satisfy all your cravings. Whether you're here for a quick bite, a hearty meal, or a family night out, we have something for everyone!
                         </p>
                         <h3 class=" font1 m-5" data-aos="zoom-out-up">Visit Us Today!
@@ -42,6 +44,7 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
+            <MenueList/>
         </dir>
     )
 }
